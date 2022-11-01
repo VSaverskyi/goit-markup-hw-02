@@ -2,6 +2,7 @@
     --main-color: #212121;
     --color-gray: #757575;
     --color-blue: #2196F3;
+    --color-blue-dark: #188CE8;
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-footer-link: rgba(255, 255, 255, 0.6);
@@ -81,6 +82,11 @@ body {
 .nav-site-link:active {
     color: var(--second-link-color);
 }
+
+.current {
+    color: var(--second-link-color);
+}
+
 .header-contacts-list {
 }
 .header-contacts-item {
@@ -123,6 +129,12 @@ body {
     letter-spacing: 0.06em;
     background-color: var(--color-blue);
     color: var(--first-btn-color);
+}
+
+.banner-btn:hover,
+.banner-btn:focus,
+.banner-btn:active {
+    background-color: var(--color-blue-dark);
 }
 
 .btn {
